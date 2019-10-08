@@ -1,10 +1,10 @@
 import React from "react";
 import "./Contact.css"
 
-function Contact(props) {
+const Contact = (props) => {
   return (
     <div className="Contact">
-      <img className="avatar" src={props.avatar} />
+      <img className="avatar" src={props.avatar} alt=""/>
       <div>
         <div className="name">{props.name}</div>
         <div className="status">
